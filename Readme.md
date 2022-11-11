@@ -13,6 +13,7 @@
     Середньоденний -> Приклад запиту: <external service ip address>/currency/avg, <service ip>/currency/avg/2022-11-07
 
 Приклад відповід у форматі JSON:
+```json
 [
     {
     "ccy": "USD",
@@ -50,6 +51,7 @@
     "date": "2022-11-10"
     }
 ]
+```
 Опис обєкту що повертається:
 
     ccy-Код валюти,
@@ -70,6 +72,7 @@ The following courses are supported:
     Black(Black market) -> Sample request: <external service ip address>/currency/black, <service ip>/currency/black/2022-11-07
     Avg(Midday) -> Sample request: <external service ip address>/currency/avg, <service ip>/currency/avg/2022-11-07
 An example of a response in JSON format:
+```json
 [
     {
     "ccy": "USD",
@@ -107,6 +110,7 @@ An example of a response in JSON format:
     "date": "2022-11-10"
     }
 ]
+```
 The description of the returned object:
     ccy-Currency code,
     base_ccy-Ukrainian hryvna's code,
